@@ -1,0 +1,35 @@
+@keyframes modalFade {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.iconAnimation {
+    animation-name: modalFade;
+    animation-duration: .3s;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sideBarMenu-item {
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.sideBarMenu-item div {
+    color: aliceblue;
+}
+
+.sideBarMenu-item:hover div {
+    background-color: #160a83;
+}
