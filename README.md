@@ -1,4 +1,4 @@
-# MyCoinWallet
+# Vip pro Wallet
 Blockchain101
 
 ## 1. Prepare socket environment
@@ -24,15 +24,6 @@ npm run start // connect to 8080
 or
 npm run start:dev1 // run port 3000 and connect to server 8080
 npm run start:dev2 // run port 3005 and connect to server 8085
-```
-
-## 4. Test + demo
-[link demo](https://youtu.be/wD6XiS1Lw50)
-
-
-# TODO:
-- PeerNetwork
-    - UI monitor
 
 ### Reference
 - https://github.com/lhartikk/naivecoin
