@@ -1,5 +1,4 @@
 # Vip pro Wallet
-Blockchain101
 
 ## 1. Prepare socket environment
 ```
